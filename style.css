@@ -379,7 +379,7 @@ footer div {
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(240, 186, 85, 0.363);;
+    background-color: rgba(240, 186, 85, 0.212);;
     z-index:-2 ;    
 }
 
@@ -708,6 +708,12 @@ form hr {
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(168, 168, 168);
     cursor: pointer;
+    transition: all 1s ease;
+}
+
+.btn-form:hover {
+    transform: translateY(-10px);
+    background-color: rgb(250, 180, 41);
 }
 
 
