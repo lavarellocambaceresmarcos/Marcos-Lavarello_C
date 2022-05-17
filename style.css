@@ -111,18 +111,45 @@ main {
     border-radius: 5px;
     margin-top: 50px;
     font-size: 20px;
+    margin-right: 20px;
+    transition: all 1s ease;
+}
+
+.link-1:hover {
+    color: rgb(37, 37, 37);
+    transform: translateY(-10px);
+}
+
+
+.one:hover, .two:hover, .three:hover  {
+    transform: translateY(-10px);
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(49, 49, 48, 0.678);
+}
+
+.box {
+    transition: all 1s ease;
 }
 
 
 .link-2 {
     margin-left: 20px;
     border: 2px solid rgba(245, 189, 80, 1);
-    padding: 7px;
+    padding: 8px;
     font-weight: bolder;
     border-radius: 5px;
     color: rgba(36, 36, 36, 1);
     margin-top: 50px;
     font-size: 20px;
+    transition: all 1s ease;
+}
+
+.link-2:hover {
+    background-color: rgba(245, 189, 80, 1);
+    /* color: #fff; */
+    /* transform: translateY(-10px); */
 }
 
 .prest-main-text-cont h1 {
