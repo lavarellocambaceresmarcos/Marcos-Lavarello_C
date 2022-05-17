@@ -359,6 +359,19 @@ footer div {
 
 
 /* about */
+.ab-cont-text {
+    position: relative;
+    background-color: #fff;
+}
+
+.back-face {
+    top: -50px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(240, 186, 85, 0.363);;
+    z-index:-2 ;    
+}
 
 .about-me-section h1 {
     text-align: center;
@@ -405,6 +418,7 @@ footer div {
     width: 100%;
     object-fit: contain;
     z-index: -1;
+    margin-bottom: 100px;
 }
 
 
