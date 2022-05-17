@@ -16,6 +16,10 @@ body {
 
 /* header */
 
+nav ul li a:hover {
+    color: orange;
+}
+
 #menu-list {
     z-index: 100000;
 }
@@ -49,6 +53,8 @@ nav ul a {
     text-decoration: none;
     color: rgba(36, 36, 36, 1);
     font-size: 20px;
+    font-weight: bolder;
+    transition: all 1s ease;
 }
 
 .logo-cont {
@@ -67,6 +73,10 @@ nav ul a {
     font-weight: bolder;
     padding: 10px;
     border-radius: 8px;
+}
+
+.link-desgr:hover {
+    color: black;
 }
 
 
