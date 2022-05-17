@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/a3cedbb514.js" crossorigin="anonymous"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <title>Home</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="whole-head-cont">
+                <div class="logo-cont">
+                    <a href="index.html">
+                       <img src="img/logo.png" alt="">
+                    </a>               
+                </div>
+                 <div class="cont-menu-btn">
+                     <button id="menu-btn">
+                        <i class="fa-solid fa-bars"></i>
+                     </button>
+                 </div>
+                 <nav class="desktop">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="sobreMi.html">Sobre Mi</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                        <li>
+                           <a href="img/CV-Marcos_Lavarello.pdf" download="" class="link-desgr" target="_blank">Descargá mi CV</a>
+                       </li>
+                    </ul>
+                 </nav>
+            </div>
+            
+        </header>
+        <!-- Mobile -->
+        <nav class="mobile">
+            <ul id="menu-list">
+                <!-- close -->
+                <div class="cont-close-btn">
+                    <button id="close-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="sobreMi.html">Sobre Mi</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                   <a href="img/CV-Marcos_Lavarello.pdf" download="" class="link-desgr" target="_blank">Descargá mi CV</a>
+               </li>
+            </ul>
+         </nav>
+        <main>
+            <section class="contact-section">
+                <!-- title -->
+                <h1>Contactame</h1>
+
+                <!-- general contact form -->
+                <div class="general-cont">
+                    <div class="cont-img-contacto">
+                        <img src="img/plane-girl.png" alt="">
+                    </div>
+                    <div class="cont-form">
+                        <form action="https://formspree.io/f/xdoybora" method="POST">
+                            <div class="cont-labels">
+                                <label for="texto-1">Nombre</label>
+                                <hr>
+                                <input type="text" name="message" id="texto-1">
+                            </div>
+                            <div class="cont-labels">
+                                <label for="_replyto">Email</label>
+                                <hr>
+                                <input type="email" name="_replyto">
+                            </div>
+                            <div class="cont-labels">
+                                <label for="texto-3">Mensaje</label>
+                                <hr>
+                                <textarea name="message" id="texto-3" cols="30" rows="10"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn-form">Enviar</button>
+                            </div>
+                            <div class="social-media-cont">
+                                <p>Seguime en</p>
+                                <div>
+                                    <a href=""><i class="fa-brands fa-github"></i></a>
+                                    <a href=""><i class="fa-brands fa-behance-square"></i></a>
+                                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright Marcos Lavarello 2022</p>
+            <div>
+                <a href="https://github.com/lavarellocambaceresmarcos?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.behance.net/marcoslavarel" target="_blank"><i class="fa-brands fa-behance-square"></i></a>
+                <a href="https://www.linkedin.com/in/marcoslavarellocambaceres/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </footer>
+    
+        <!-- JS -->
+        <script src="app.js"></script>
+    
+</body>
+</html>
